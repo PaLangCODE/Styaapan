@@ -1,5 +1,5 @@
 # Satyapan
-"> Satyam Pramanpatram"
+"> Satyapanik Pramanpatram"
 
 ## Initialization
 
