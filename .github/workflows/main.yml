@@ -1,0 +1,19 @@
+name: React Checks
+
+on:
+  [pull_request]
+
+jobs:
+  checks_react_code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Build Next js app
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - working-directory: ./client
+        run: npm ci
+      - working-directory: ./client
+        run: npm run build
