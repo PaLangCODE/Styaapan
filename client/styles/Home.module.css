@@ -1,0 +1,15 @@
+.tranfer_text{
+  padding: 7px 8px
+}
+
+.tranfer_text_block{
+  color: #000;
+}
+
+.transfer_main_btn{
+  color: white;
+  margin-right: 16px;
+  background-color: #ec4899;
+  padding: 8px;
+  border-radius: 0.25rem;
+}
