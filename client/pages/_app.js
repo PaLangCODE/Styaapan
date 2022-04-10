@@ -27,11 +27,7 @@ function MyApp({ Component, pageProps }) {
               Transferred Certificate To Students
             </a>
           </Link>
-          <Link href="/my-certificates">
-            <a className="mr-6 text-purple-500">
-              My Certificates
-            </a>
-          </Link>
+          
         </div>
       </nav>
       <Component {...pageProps} />
