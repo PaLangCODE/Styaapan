@@ -27,12 +27,12 @@ export default function Home() {
    * @returns {Promise<void>}
    */
   async function loadNFTs() {
-    
+
     // For the Mumbai Testnet
     // const provider = new ethers.providers.JsonRpcProvider(rpc_url);
 
     // For the LocalHost
-     const provider = new ethers.providers.JsonRpcProvider();
+    const provider = new ethers.providers.JsonRpcProvider();
 
     const tokenContract = new ethers.Contract(nftAddress, NFT.abi, provider);
     const marketContract = new ethers.Contract(nftTransferAddress, NFTTransfer.abi, provider);
@@ -84,7 +84,7 @@ export default function Home() {
 
 
   if (loadingState === "loaded" && !nfts.length) return (
-    <h1 className="px-20 py-10 text-3xl" >No Certificates Created or Left to Transfer</h1>
+    <h1 className="px-20 py-10 text-3xl text-white" >Oops! No Certificates left to Transfer...</h1>
   );
 
   return (

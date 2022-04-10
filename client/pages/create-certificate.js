@@ -72,7 +72,7 @@ export default function CreateItem() {
     /**
      * Creating the NFT and Making it to sale. Calling the web 3.0 contracts here.
      * @param {string} url ipfs url where certificate is uploaded
-     */   
+     */
     async function putCertificate(url) {
         const web3Modal = new Web3Modal();
         const connection = await web3Modal.connect();
