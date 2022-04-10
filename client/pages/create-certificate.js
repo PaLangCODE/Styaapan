@@ -108,12 +108,12 @@ export default function CreateItem() {
         await transaction.wait();
         console.log("completed")
         //navigate back to home page
-        router.push('/home');
+        router.push('/');
     }
 
     return (
         <div className="flex justify-center">
-            <div className="w-1/2 flex flex-col pb-12">
+            <div className="w-1/2 flex flex-col pb-20">
                 <input
                     placeholder="Certificate Name"
                     className="mt-8 border rounded p-4"
@@ -121,7 +121,7 @@ export default function CreateItem() {
                 />
                 <textarea
                     placeholder="Certificate Description"
-                    className="mt-2 border rounded p-4"
+                    className="mt-3 border rounded p-4"
                     onChange={e => updateFormInput({ ...formInput, description: e.target.value })}
                 />
                 <input
@@ -135,7 +135,7 @@ export default function CreateItem() {
                         <img className="rounded mt-4" width="350" src={fileUrl} />
                     )
                 }
-                <button onClick={createCertificate} className="font-bold mt-4 bg-pink-500 text-white rounded p-4 shadow-lg">
+                <button onClick={createCertificate} className="font-bold mt-20 bg-cyan-600 hover:bg-cyan-700 text-white rounded p-4 shadow-lg">
                     Create Certificate
                 </button>
             </div>
