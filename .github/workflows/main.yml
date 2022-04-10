@@ -1,7 +1,11 @@
-name: React Checks
+name: Checks
 
 on:
-  [pull_request]
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   checks_react_code:
@@ -17,3 +21,4 @@ jobs:
         run: npm ci
       - working-directory: ./client
         run: npm run build
+        
