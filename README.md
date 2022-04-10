@@ -1,4 +1,4 @@
-# Satyapan
+# Styaapan
 "> Satyapanik Pramanpatram"
 
 ## Initialization
