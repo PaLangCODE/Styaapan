@@ -1,16 +1,13 @@
 # Satyapan
-"Satyam Pramanpatram"
+"> Satyam Pramanpatram"
 
-## Intialization
-
+## Initialization
 
 ### Clone the repo.
 
 ```
 git clone https://github.com/${GitHub Username}/Styaapan.git
 ```
-
-
 
 Example => `git clone https://github.com/PaLangCODE/Styaapan.git`
 
@@ -23,7 +20,6 @@ cd Styaapan
 ```
 
 <br>
-
 
 <br>
 
@@ -65,9 +61,7 @@ npm install
 
 > Create a file in `CONTRACT` folder named as `.projectId` 
 
-
 This will keep the projectID which we'll get from the RPC provider sites for deployement in polygon testnet.
-
 
 > Paste the Project ID in it.
 
@@ -81,19 +75,18 @@ npx hardhat node
 
 > Copy any Private Key from a specific wallet.
 
-
 > Open a New Terminal at `Styaapan`
 
 > Create a file in `CONTRACT` folder named as `.secret`
-> 
 
 > Paste the Test Wallet `Private Address` in it.
 
-
 > SetUp the Metamask Test Wallet with the same private address.
+
 > Import the account from the wallet private address.
 
 <br>
+
 <hr>
 
 # RUNNING FILE ON LOCALHOST:
@@ -212,14 +205,3 @@ client/abi/NFTTransfer.json
 ```
 npm run dev
 ```
-
-
-
-
-
-
-
-
-
-
-
