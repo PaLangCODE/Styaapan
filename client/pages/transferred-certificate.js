@@ -65,7 +65,7 @@ export default function MyAssets() {
                             <div key={i} className="border shadow rounded-xl overflow-hidden">
                                 <img src={nft.image} className={`${classes.img_nft}`} />
                                 <div className="p-7 bg-blue-200" >
-                                    <p className="text-2xl font-bold text-black">Owner's Address </p>
+                                    <p className="text-2xl font-bold text-black">Address of Owner</p>
                                     <p className="text-slate-800 text-xs mr-5 address" style={{ fontSize: '12px' }}>{nft.owner.toString()} </p>
                                 </div>
                             </div>
