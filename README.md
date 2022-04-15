@@ -1,5 +1,5 @@
 # Styaapan
-"> Satyapanik Pramanpatram"
+" Satyapanik Pramanpatram"
 
 ## Initialization
 
@@ -133,6 +133,7 @@ npx hardhat run scripts/deploy.js --network localhost
  ```
  
  ### Set the Metamask Network to LocalHost
+ Make sure to download and enable the metamask extension to connect to web3.
  
  ### Run the UI
  ```
@@ -159,7 +160,7 @@ export const rpc_url = `rpcUrl`;
 ```
 
 ### Get a wallet where you have Mumbai Testnet Tokens for deployment.
-Get some matic tokens by requesting some `Matic/Polygon Faucet` sites. e.g. ```https://faucet.polygon.technology/```
+Get some matic tokens by requesting some token from `Matic/Polygon Faucet` sites. e.g. ```https://faucet.polygon.technology/```
 
 ### Paste the Wallet Private Key into the CONTRACT/hardhat.config.js
 
